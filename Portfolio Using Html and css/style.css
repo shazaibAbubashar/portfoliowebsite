@@ -1,0 +1,517 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Poppins&family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+:root {
+  --primary-color: #003366;
+  --secondary-color: #1864af;
+  --btn-bg-color: #2c80d4;
+}
+.dark-theme {
+  --primary-color: #161515;
+  --secondary-color: rgba(202, 186, 186, 0.562);
+  --btn-bg-color: red;
+}
+nav {
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6rem;
+  background-color: var(--secondary-color);
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  font-family: "Caprasimo", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  font-size: 1.3rem;
+}
+.logo h1 a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.style {
+  display: flex;
+}
+nav img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+nav .nav-items {
+  display: flex;
+  margin-left: 20rem;
+  width: 100%;
+}
+.nav-items li {
+  list-style: none;
+  color: white;
+}
+.nav-items li a {
+  text-decoration: none;
+  margin: 0.5rem;
+  color: white;
+  font-size: 1.2rem;
+}
+.nav-items li a:hover {
+  text-decoration: underline;
+  color: white;
+}
+/*About-me Styling*/
+.sectionaboutme {
+  background-color: var(--primary-color);
+  color: white;
+  height: auto;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 12rem 3rem;
+  border-bottom: 1px solid grey;
+}
+
+.left {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center;
+  align-items: center;
+  /* height: 50vh; */ /* Removed fixed height */
+  width: 49%;
+  font-family: "Caprasimo", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.left h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem; /* Added spacing between headings */
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45vh; 
+  width: 49%;
+}
+.right img {
+  border-radius: 50%;
+  height: 80%;
+  width: 40%;
+}
+.lefthead span {
+  color: rgb(243, 184, 74);
+}
+
+/*Skill Section Styling*/
+.skillsection {
+  background-color: var(--primary-color);
+  height: 100vh;
+  width: 100vw;
+  border-bottom: 1px solid grey;
+
+}
+.skillhead {
+  height: 12rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.3rem;
+  font-family: "Caprasimo", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+/* ... (previous CSS rules) ... */
+
+.card1 {
+  margin-top: 2rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  height: 53vh;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: visible; /* Allow content to overflow */
+}
+
+.logocard {
+  position: absolute;
+  top: -1.9rem; /* Adjust this value to position the logocard */
+  left: 50%;
+  transform: translateX(-50%);
+  height: 5rem;
+  width: 5rem;
+  z-index: 1;
+}
+.logocard img {
+  height: 95%;
+  width: 100%;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 17rem;
+  color: white;
+}
+.data p {
+  padding: 2rem 2rem;
+  text-align: center;
+  font-family: "Caprasimo", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.maincards {
+  display: flex;
+  justify-content: space-around;
+}
+/*Education Section*/
+.educationsection {
+  font-family: "Caprasimo", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-color);
+  height: 100vh;
+  width: 100vw;
+  border-bottom: 2px solid gray;
+}
+/*Skills section styling*/
+.educationhead {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+}
+.computer {
+  margin-left: 1rem;
+  font-size: 2rem;
+  color: white;
+}
+.watsapp {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  color: white;
+  background-color: rgb(0, 255, 13);
+  border-radius: 50%;
+  padding: 0.3rem 0.5rem;
+}
+.htmlbox {
+  border: 2px solid grey;
+  height: 1.2rem;
+  width: 60%;
+  display: block;
+  margin: auto;
+  overflow: visible;
+  z-index: 1;
+  position: relative;
+  border-radius: 16px;
+  margin: 2rem 15rem;
+}
+.innerhtmlbox {
+  background-color: orangered;
+  height: 100%;
+  width: 70%;
+  border-radius: 16px;
+  overflow: visible;
+}
+.htmlcirclebox {
+  border: 2px solid orangered;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  position: absolute;
+  top: -19px;
+  left: 66%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.htmlhead {
+  width: 26%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 28px;
+  left: 8%;
+}
+.innercssbox {
+  background-color: skyblue;
+  width: 60%;
+}
+.csscirclebox {
+  border: 2px solid skyblue;
+  background-color: black;
+  left: 58%;
+}
+.jsinnerbox {
+  background-color: yellow;
+  width: 50%;
+}
+.jscirclebox {
+  border: 2px solid yellow;
+  left: 46%;
+}
+.cinnerbox {
+  background-color: blue;
+}
+.ccirclebox {
+  border: 2px solid blue;
+}
+.cpluplusinnercssbox {
+  background-color: rgb(22, 116, 153);
+  width: 90%;
+}
+.cpluspluscirclebox {
+  border: 2px solid rgb(22, 116, 153);
+  left: 87%;
+}
+.contactbox {
+  font-family: "Caprasimo", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-color);
+  height: 100vh;
+  width: 100vw;
+  border-bottom: 2px solid grey;
+}
+/*Contact Box styling*/
+.contactdetails {
+  color: white;
+  font-size: 1.5rem;
+  padding-left: 4rem;
+}
+.contactdetails a {
+  font-size: 1.5rem;
+  color: white;
+}
+.contactdetails h1 {
+  font-size: 1.5rem;
+}
+i {
+  margin-right: 1rem;
+  color: white;
+}
+.maincontactbox {
+  height: 30vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mylocation {
+  color: white;
+}
+.location {
+  color: red;
+}
+
+.envelope {
+  color: white;
+}
+.inputbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50vh;
+  width: 100vw;
+}
+.inputbox input {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  font-size: 1rem;
+  padding: 0.6rem 2rem;
+  width: 50%;
+  border: none;
+  background: none;
+  border-bottom: 2px solid grey;
+  color: white;
+  font-family: "Caprasimo", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: var(--btn-bg-color);
+  font-size: 1rem;
+  padding: 0.4rem 2rem;
+  margin-left: 3rem;
+  width: 18%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 3px 2px var(--btn-bg-color);
+  cursor: pointer;
+  border: 2px solid white;
+}
+.btnbox {
+  padding-top: 2rem;
+  height: 13rem;
+}
+.btn:hover {
+  transition: all 0.3s;
+  background-color: var(--btn-bg-color);
+}
+/*Study Section Styling*/
+.studysection {
+  background-color: var(--primary-color);
+  height: 100vh;
+  width: 100vw;
+  border-bottom: 2px solid grey;
+}
+.studyhead {
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.studyhead h1 {
+  color: white;
+}
+.main-study-material {
+  height: 79vh;
+  width: 100vw;
+  display: flex;
+}
+.graudate-cap {
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid orange;
+  height: 90%;
+  width: 10%;
+  overflow: visible;
+  margin-top: 2rem;
+  margin-left: 20%;
+}
+.caps {
+  color: orange;
+}
+.caps1 {
+  position: relative;
+  top: 8%;
+  left: 85%;
+  font-size: 2rem;
+}
+.caps2 {
+  position: relative;
+  top: 28%;
+  left: 85%;
+  font-size: 2rem;
+}
+.caps3 {
+  position: relative;
+  top: 50%;
+  left: 85%;
+  font-size: 2rem;
+}
+.studycontentbox {
+  margin-left: 3%;
+  width: 33%;
+  height: 100%;
+  padding: 2rem 1rem;
+}
+.box {
+  margin-bottom: 1rem;
+}
+.box1 {
+  color: white;
+  padding: 1rem 2rem;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.box1 h1 {
+  margin-bottom: 1rem;
+}
+.box2 {
+  color: white;
+  padding: 1rem 2rem;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.box2 h1 {
+  margin-bottom: 1rem;
+}
+.box3 {
+  color: white;
+  padding: 1rem 2rem;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.box3 h1 {
+  margin-bottom: 1rem;
+}
+/*Footer Styling*/
+.footer {
+  height: 10rem;
+  padding-top: 2rem;
+  width: 100vw;
+  color: white;
+  background-color: var(--primary-color);
+  text-align: center;
+}
+.footercontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-bottom: 3rem;
+}
+.footercontent p {
+  font-size: 1.2rem;
+}
+
+.social {
+  cursor: pointer;
+  font-size: 2rem;
+  margin-left: 2rem;
+  padding: 0.3rem 0.4rem;
+}
+.facebook:hover {
+  color: blue;
+  background-color: white;
+  border-radius: 50%;
+}
+.insta:hover {
+  background-color: #e4405f;
+  color: white;
+  border-radius: 20%;
+}
+.snapchat:hover {
+  color: white;
+  background-color: rgba(255, 255, 0, 0.9);
+  border-radius: 15%;
+}
+.twitter:hover {
+  border-radius: 20%;
+  background-color: #f5f8fa;
+  color: #1da1f2;
+}
+.linkedin:hover {
+  border-radius: 20%;
+  color: #0077b5;
+  background-color: white;
+}
+.footer i {
+  color: white;
+}

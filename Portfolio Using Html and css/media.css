@@ -1,0 +1,1373 @@
+@media only screen and (max-width: 350px) {
+  nav {
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo h1 a {
+    font-size: 1rem;
+  }
+  .style .nav-items li a {
+    font-size: 0.5rem;
+  }
+  nav .nav-items {
+    margin: 0;
+  }
+  nav img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .sectionaboutme {
+    background-color: var(--primary-color);
+    color: white;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 8rem 1rem;
+  }
+  .left {
+    height: 23vh;
+    width: 50%;
+  }
+  .left h1 {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+  .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 46%;
+  }
+  .right img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+    height: 80%;
+    width: 100%;
+  }
+  /*Skill Section Stylling*/
+  .skillhead {
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.7rem;
+  }
+  .logocard img {
+    height: 60%;
+    width: 60%;
+  }
+  .logocard {
+    position: absolute;
+    top: -1.9rem;
+    left: 57%;
+    transform: translateX(-50%);
+    height: 5rem;
+    width: 5rem;
+    z-index: 1;
+  }
+  .maincards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  .card1 {
+    margin-bottom: 1rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 10vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: visible;
+  }
+  .data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 11vh;
+    width: 17rem;
+    color: white;
+    font-size: 0.6rem;
+  }
+
+  .data p {
+    padding: 0.5rem 0.5rem;
+  }
+
+  /*Education Styling*/
+  .educationsection {
+    height: 100vh;
+    width: 100vw;
+  }
+  .educationhead {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    font-size: 0.7rem;
+  }
+  .computer {
+    margin-left: 0.6rem;
+    font-size: 1.3rem;
+    color: white;
+  }
+  .htmlbox {
+    border: 2px solid grey;
+    height: 1rem;
+    width: 82%;
+    display: block;
+    margin: auto;
+    overflow: visible;
+    z-index: 1;
+    position: relative;
+    border-radius: 16px;
+    margin: 2rem 2rem;
+  }
+  .htmlcirclebox {
+    border: 2px solid orangered;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: -12px;
+    left: 66%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 0.6rem;
+  }
+  .csscirclebox {
+    left: 57%;
+    border: 2px solid skyblue;
+  }
+  .jscirclebox {
+    left: 45%;
+    border: 2px solid yellow;
+  }
+  .ccirclebox {
+    border: 2px solid blue;
+  }
+  .cpluspluscirclebox {
+    left: 80%;
+    border: 2px solid rgb(22, 116, 153);
+  }
+
+  .htmlhead {
+    font-size: 0.7rem;
+  }
+  /*Skill Section*/
+  .studysection {
+    height: 90vh;
+    width: 100vw;
+  }
+  .studyhead {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+  }
+  .box1 {
+    color: white;
+    padding: 0.5rem 0.5rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 0.5rem;
+  }
+  .box1 h1 {
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+  }
+  .box2 {
+    color: white;
+    padding: 0.5rem 0.5rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 0.5rem;
+  }
+  .box2 h1 {
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+  }
+  .box3 {
+    color: white;
+    padding: 0.5rem 0.5rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 0.5rem;
+  }
+  .box3 h1 {
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+  }
+  .studycontentbox {
+    margin-left: 3%;
+    width: 61%;
+    height: 90%;
+    padding: 1rem 1rem;
+  }
+  .graudate-cap {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid white;
+    height: 70%;
+    width: 15%;
+    overflow: visible;
+    margin-top: 2rem;
+  }
+  .main-study-material {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 35vh;
+  }
+  .caps1 {
+    position: relative;
+    top: 8%;
+    left: 76%;
+    font-size: 1.4rem;
+  }
+  .caps2 {
+    position: relative;
+    top: 28%;
+    left: 77%;
+    font-size: 1.4rem;
+  }
+  .caps3 {
+    position: relative;
+    top: 50%;
+    left: 77%;
+    font-size: 1.4rem;
+  }
+  /*Contact Section styling*/
+  .contactbox {
+    height: 80vh;
+    width: 100vw;
+  }
+  .contactdetails {
+    padding-left: 3rem;
+  }
+  .maincontactbox {
+    height: 16vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contacthead h1 {
+    font-size: 0.8rem;
+  }
+
+  .contacthead i {
+    font-size: 0.5rem;
+  }
+  .contactdetails h1 {
+    font-size: 0.7rem;
+  }
+  .contactdetails a {
+    font-size: 0.7rem;
+    color: white;
+  }
+  .inputbox input {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: 0.6rem;
+    padding: 0.3rem 0rem;
+    width: 60%;
+  }
+  .btnbox {
+    padding-top: 2rem;
+    width: 100vw;
+  }
+  .btn {
+    text-decoration: none;
+    color: white;
+    background-color: var(--btn-bg-color);
+    font-size: 0.5rem;
+    padding: 0.3rem 1rem;
+    margin-left: 2.7rem;
+    width: 30%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid white;
+  }
+
+  /*Footer Section*/
+  .footer {
+    height: 5rem;
+    padding-top: 0.5rem;
+  }
+  .footercontent {
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  .footercontent p {
+    font-size: 0.5rem;
+  }
+  .facebook {
+    font-size: 1.5rem;
+  }
+  .insta {
+    font-size: 1.5rem;
+  }
+  .snapchat {
+    font-size: 1.5rem;
+  }
+  .twitter {
+    font-size: 1.5rem;
+  }
+  .linkedin {
+    font-size: 1.5rem;
+  }
+
+  .social {
+    cursor: pointer;
+    margin-left: 0.5rem;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 500px) {
+  nav {
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo h1 a {
+    font-size: 1rem;
+  }
+  .style .nav-items li a {
+    font-size: 0.5rem;
+  }
+  nav .nav-items {
+    margin: 0;
+  }
+  nav img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .sectionaboutme {
+    background-color: var(--primary-color);
+    color: white;
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 8rem 1rem;
+  }
+  .left {
+    height: 23vh;
+    width: 50%;
+  }
+  .left h1 {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+  .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 46%;
+  }
+  .right img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+    height: 80%;
+    width: 100%;
+  }
+  /*Skill Section Stylling*/
+  .skillhead {
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.7rem;
+  }
+  .logocard img {
+    height: 60%;
+    width: 60%;
+  }
+  .logocard {
+    position: absolute;
+    top: -1.9rem;
+    left: 59%;
+    transform: translateX(-50%);
+    height: 5rem;
+    width: 5rem;
+    z-index: 1;
+  }
+  .maincards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  .card1 {
+    margin-bottom: 1rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 15vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: visible;
+  }
+  .data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 16vh;
+    width: 17rem;
+    color: white;
+    font-size: 0.4rem;
+  }
+  .data p {
+    padding: 0.5rem 0.5rem;
+  }
+
+  /*Education Styling*/
+  .educationsection {
+    height: 100vh;
+    width: 100vw;
+  }
+  .educationhead {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    font-size: 0.7rem;
+  }
+  .computer {
+    margin-left: 0.6rem;
+    font-size: 1.3rem;
+    color: white;
+  }
+  .htmlbox {
+    border: 2px solid grey;
+    height: 1rem;
+    width: 82%;
+    display: block;
+    margin: auto;
+    overflow: visible;
+    z-index: 1;
+    position: relative;
+    border-radius: 16px;
+    margin: 2rem 2rem;
+  }
+  .htmlcirclebox {
+    border: 2px solid orangered;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: -12px;
+    left: 66%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 0.6rem;
+  }
+  .csscirclebox {
+    left: 57%;
+    border: 2px solid skyblue;
+  }
+  .jscirclebox {
+    left: 45%;
+    border: 2px solid yellow;
+  }
+  .ccirclebox {
+    border: 2px solid blue;
+  }
+  .cpluspluscirclebox {
+    left: 85%;
+    border: 2px solid rgb(22, 116, 153);
+  }
+
+  .htmlhead {
+    font-size: 0.7rem;
+  }
+  /*Skill Section*/
+  .studysection {
+    height: 90vh;
+    width: 100vw;
+  }
+  .studyhead {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+  }
+  .box1 {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 0.5rem;
+    height: 12vh;
+  }
+  .box1 h1 {
+    margin-bottom: 0.3rem;
+    font-size: 0.5rem;
+  }
+  
+  .box2 {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 0.5rem;
+    height: 12vh;
+  }
+  .box2 h1 {
+    margin-bottom: 0.3rem;
+    font-size: 0.5rem;
+  }
+
+  .box3 {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 0.5rem;
+    height: 12vh;
+  }
+  .box3 h1 {
+    margin-bottom: 0.3rem;
+    font-size: 0.5rem;
+  }
+  .studycontentbox {
+    margin-left: 3%;
+    width: 61%;
+    height: 93%;
+    padding: 1rem 1rem;
+  }
+  .graudate-cap {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid white;
+    height: 81%;
+    width: 15%;
+    overflow: visible;
+    margin-top: 2rem;
+  }
+  .main-study-material {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50vh;
+  }
+  .caps1 {
+    position: relative;
+    top: 6%;
+    left: 84%;
+    font-size: 1.4rem;
+  }
+  .caps2 {
+    position: relative;
+    top: 28%;
+    left: 84%;
+    font-size: 1.4rem;
+  }
+  .caps3 {
+    position: relative;
+    top: 55%;
+    left: 84%;
+    font-size: 1.4rem;
+  }
+  /*Contact Section styling*/
+  .contactbox {
+    height: 85vh;
+    width: 100vw;
+  }
+  .contactdetails {
+    padding-left: 3rem;
+  }
+  .maincontactbox {
+    height: 16vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contacthead h1 {
+    font-size: 0.8rem;
+  }
+
+  .contacthead i {
+    font-size: 0.5rem;
+  }
+  .contactdetails h1 {
+    font-size: 0.7rem;
+  }
+  .contactdetails a {
+    font-size: 0.7rem;
+    color: white;
+  }
+  .inputbox input {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: 0.6rem;
+    padding: 0.3rem 0rem;
+    width: 60%;
+  }
+  .btnbox {
+    padding-top: 2rem;
+    width: 100vw;
+  }
+  .btn {
+    text-decoration: none;
+    color: white;
+    background-color: var(--btn-bg-color);
+    font-size: 0.5rem;
+    padding: 0.3rem 1rem;
+    margin-left: 2.7rem;
+    width: 30%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid white;
+  }
+
+  /*Footer Section*/
+  .footer {
+    height: 5rem;
+    padding-top: 0.5rem;
+  }
+  .footercontent {
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  .footercontent p {
+    font-size: 0.5rem;
+  }
+  .facebook {
+    font-size: 1.5rem;
+  }
+  .insta {
+    font-size: 1.5rem;
+  }
+  .snapchat {
+    font-size: 1.5rem;
+  }
+  .twitter {
+    font-size: 1.5rem;
+  }
+  .linkedin {
+    font-size: 1.5rem;
+  }
+
+  .social {
+    cursor: pointer;
+    margin-left: 0.5rem;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 750px) {
+  nav {
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo h1 a {
+    font-size: 1rem;
+  }
+  .style .nav-items li a {
+    font-size: 0.5rem;
+  }
+  nav .nav-items {
+    margin: 0;
+  }
+  nav img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .sectionaboutme {
+    background-color: var(--primary-color);
+    color: white;
+    height: 55vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 8rem 1rem;
+  }
+  .left {
+    height: 23vh;
+    width: 50%;
+  }
+  .left h1 {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+  .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 46%;
+  }
+  .right img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+    height: 80%;
+    width: 100%;
+  }
+  /*Skill Section Stylling*/
+  .skillhead {
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.7rem;
+  }
+  .logocard img {
+    height: 60%;
+    width: 60%;
+  }
+  .logocard {
+    position: absolute;
+    top: -1.9rem;
+    left: 59%;
+    transform: translateX(-50%);
+    height: 5rem;
+    width: 5rem;
+    z-index: 1;
+  }
+  .maincards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 82vh;
+  }
+  .card1 {
+    margin-bottom: 1rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 15vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: visible;
+  }
+  .data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 16vh;
+    width: 17rem;
+    color: white;
+    font-size: 0.6rem;
+  }
+  .data p {
+    padding: 0.5rem 0.5rem;
+  }
+
+  /*Education Styling*/
+  .educationsection {
+    height: 100vh;
+    width: 100vw;
+  }
+  .educationhead {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    font-size: 0.7rem;
+  }
+  .computer {
+    margin-left: 0.6rem;
+    font-size: 1.3rem;
+    color: white;
+  }
+  .htmlbox {
+    border: 2px solid grey;
+    height: 1rem;
+    width: 82%;
+    display: block;
+    margin: auto;
+    overflow: visible;
+    z-index: 1;
+    position: relative;
+    border-radius: 16px;
+    margin: 2rem 2rem;
+  }
+  .htmlcirclebox {
+    border: 2px solid orangered;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: -12px;
+    left: 66%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 0.6rem;
+  }
+  .csscirclebox {
+    left: 57%;
+    border: 2px solid skyblue;
+  }
+  .jscirclebox {
+    left: 45%;
+    border: 2px solid yellow;
+  }
+  .ccirclebox {
+    border: 2px solid blue;
+  }
+  .cpluspluscirclebox {
+    left: 85%;
+    border: 2px solid rgb(22, 116, 153);
+  }
+
+  .htmlhead {
+    font-size: 0.7rem;
+  }
+  /*Skill Section*/
+  .studysection {
+    height: 90vh;
+    width: 100vw;
+  }
+  .studyhead {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+  }
+  .box1 {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 0.5rem;
+    height: 10vh;
+  }
+  .box1 h1 {
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+  }
+  .box2 {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 0.5rem;
+    height: 10vh;
+  }
+  .box2 h1 {
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+  }
+  .box3 {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 0.5rem;
+    height: 10vh;
+  }
+  .box3 h1 {
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+  }
+  .studycontentbox {
+    margin-left: 3%;
+    width: 61%;
+    height: 90%;
+    padding: 1rem 1rem;
+  }
+  .graudate-cap {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid white;
+    height: 70%;
+    width: 15%;
+    overflow: visible;
+    margin-top: 2rem;
+  }
+  .main-study-material {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50vh;
+  }
+  .caps1 {
+    position: relative;
+    top: 6%;
+    left: 84%;
+    font-size: 1.4rem;
+  }
+  .caps2 {
+    position: relative;
+    top: 28%;
+    left: 84%;
+    font-size: 1.4rem;
+  }
+  .caps3 {
+    position: relative;
+    top: 55%;
+    left: 84%;
+    font-size: 1.4rem;
+  }
+  /*Contact Section styling*/
+  .contactbox {
+    height: 80vh;
+    width: 100vw;
+  }
+  .contactdetails {
+    padding-left: 3rem;
+  }
+  .maincontactbox {
+    height: 16vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contacthead h1 {
+    font-size: 0.8rem;
+  }
+
+  .contacthead i {
+    font-size: 0.5rem;
+  }
+  .contactdetails h1 {
+    font-size: 0.7rem;
+  }
+  .contactdetails a {
+    font-size: 0.7rem;
+    color: white;
+  }
+  .inputbox input {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: 0.6rem;
+    padding: 0.3rem 0rem;
+    width: 60%;
+  }
+  .btnbox {
+    padding-top: 2rem;
+    width: 100vw;
+  }
+  .btn {
+    text-decoration: none;
+    color: white;
+    background-color: var(--btn-bg-color);
+    font-size: 0.5rem;
+    padding: 0.3rem 1rem;
+    margin-left: 2.7rem;
+    width: 30%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid white;
+  }
+
+  /*Footer Section*/
+  .footer {
+    height: 5rem;
+    padding-top: 0.5rem;
+  }
+  .footercontent {
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  .footercontent p {
+    font-size: 0.5rem;
+  }
+  .facebook {
+    font-size: 1.5rem;
+  }
+  .insta {
+    font-size: 1.5rem;
+  }
+  .snapchat {
+    font-size: 1.5rem;
+  }
+  .twitter {
+    font-size: 1.5rem;
+  }
+  .linkedin {
+    font-size: 1.5rem;
+  }
+
+  .social {
+    cursor: pointer;
+    margin-left: 0.5rem;
+  }
+}
+@media only screen and (min-width: 751px) and (max-width: 1150px) {
+  nav {
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo h1 a {
+    font-size: 1rem;
+  }
+  .style .nav-items li a {
+    font-size: 0.5rem;
+  }
+  nav .nav-items {
+    margin: 0;
+  }
+  nav img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .sectionaboutme {
+    background-color: var(--primary-color);
+    color: white;
+    height: 55vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 8rem 1rem;
+  }
+  .left {
+    height: 23vh;
+    width: 50%;
+  }
+  .left h1 {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+  .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 46%;
+  }
+  .right img {
+    border-radius: 50%;
+    height: 80%;
+    width: 50%;
+  }
+  /*Skill Section Stylling*/
+  .skillhead {
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.7rem;
+  }
+  .logocard img {
+    height: 60%;
+    width: 60%;
+  }
+  .logocard {
+    position: absolute;
+    top: -1.9rem;
+    left: 59%;
+    transform: translateX(-50%);
+    height: 5rem;
+    width: 5rem;
+    z-index: 1;
+  }
+  .maincards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 82vh;
+  }
+  .card1 {
+    margin-bottom: 1rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 15vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: visible;
+  }
+  .data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 16vh;
+    width: 17rem;
+    color: white;
+    font-size: 0.6rem;
+  }
+  .data p {
+    padding: 0.5rem 0.5rem;
+  }
+
+  /*Education Styling*/
+  .educationsection {
+    height: 100vh;
+    width: 100vw;
+  }
+  .educationhead {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    font-size: 0.7rem;
+  }
+  .computer {
+    margin-left: 0.6rem;
+    font-size: 1.3rem;
+    color: white;
+  }
+  .htmlbox {
+    border: 2px solid grey;
+    height: 1rem;
+    width: 82%;
+    display: block;
+    margin: auto;
+    overflow: visible;
+    z-index: 1;
+    position: relative;
+    border-radius: 16px;
+    margin: 2rem 2rem;
+  }
+  .htmlcirclebox {
+    border: 2px solid orangered;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: -12px;
+    left: 66%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 0.6rem;
+  }
+  .csscirclebox {
+    left: 57%;
+    border: 2px solid skyblue;
+  }
+  .jscirclebox {
+    left: 45%;
+    border: 2px solid yellow;
+  }
+  .ccirclebox {
+    border: 2px solid blue;
+  }
+  .cpluspluscirclebox {
+    left: 85%;
+    border: 2px solid rgb(22, 116, 153);
+  }
+
+  .htmlhead {
+    font-size: 0.7rem;
+  }
+  /*Skill Section*/
+  .studysection {
+    height: 90vh;
+    width: 100vw;
+  }
+  .studyhead {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+  }
+  .box1 {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 0.5rem;
+    height: 10vh;
+  }
+  .box1 h1 {
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+  }
+  .box2 {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 0.5rem;
+    height: 10vh;
+  }
+  .box2 h1 {
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+  }
+  .box3 {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 0.5rem;
+    height: 10vh;
+  }
+  .box3 h1 {
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+  }
+  .studycontentbox {
+    margin-left: 3%;
+    width: 61%;
+    height: 90%;
+    padding: 1rem 1rem;
+  }
+  .graudate-cap {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid white;
+    height: 70%;
+    width: 15%;
+    overflow: visible;
+    margin-top: 2rem;
+  }
+  .main-study-material {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50vh;
+  }
+  .caps1 {
+    position: relative;
+    top: 6%;
+    left: 90%;
+    font-size: 1.4rem;
+  }
+  .caps2 {
+    position: relative;
+    top: 28%;
+    left: 90%;
+    font-size: 1.4rem;
+  }
+  .caps3 {
+    position: relative;
+    top: 55%;
+    left: 90%;
+    font-size: 1.4rem;
+  }
+  /*Contact Section styling*/
+  .contactbox {
+    height: 80vh;
+    width: 100vw;
+  }
+  .contactdetails {
+    padding-left: 3rem;
+  }
+  .maincontactbox {
+    height: 16vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contacthead h1 {
+    font-size: 0.8rem;
+  }
+
+  .contacthead i {
+    font-size: 0.5rem;
+  }
+  .contactdetails h1 {
+    font-size: 0.7rem;
+  }
+  .contactdetails a {
+    font-size: 0.7rem;
+    color: white;
+  }
+  .inputbox input {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: 0.6rem;
+    padding: 0.3rem 0rem;
+    width: 60%;
+  }
+  .btnbox {
+    padding-top: 2rem;
+    width: 100vw;
+  }
+  .btn {
+    text-decoration: none;
+    color: white;
+    background-color: var(--btn-bg-color);
+    font-size: 0.5rem;
+    padding: 0.3rem 1rem;
+    margin-left: 2.7rem;
+    width: 30%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid white;
+  }
+
+  /*Footer Section*/
+  .footer {
+    height: 5rem;
+    padding-top: 0.5rem;
+  }
+  .footercontent {
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  .footercontent p {
+    font-size: 0.5rem;
+  }
+  .facebook {
+    font-size: 1.5rem;
+  }
+  .insta {
+    font-size: 1.5rem;
+  }
+  .snapchat {
+    font-size: 1.5rem;
+  }
+  .twitter {
+    font-size: 1.5rem;
+  }
+  .linkedin {
+    font-size: 1.5rem;
+  }
+
+  .social {
+    cursor: pointer;
+    margin-left: 0.5rem;
+  }
+}
